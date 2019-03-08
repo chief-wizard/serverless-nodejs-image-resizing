@@ -17,13 +17,11 @@ In order to deploy the function, you will need the following:
 ## Deploying the Serverless project
 
 1. Clone the repository and install the dependencies:\
-\
 ```
 yarn
 ```
 2. Add your AWS credentials into the `secrets/secrets.env` file.
 3. Deploy the Serverless project:\
-\
 ```
 docker-compose up --build
 ```
